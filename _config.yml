@@ -1,1 +1,13 @@
 theme: jekyll-theme-minimal
+
+title: Maurice's blog
+author: Maurice Lam
+email: me@mauricelam.com
+description: > # this means to ignore newlines
+  This is Maurice's blog
+theme: minima
+
+# social links
+github_username:  mauricelam
+
+show_excerpts: true # set to false to remove excerpts on the homepage
