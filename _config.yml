@@ -6,6 +6,7 @@ email: me@mauricelam.com
 description: > # this means to ignore newlines
   This is Maurice's blog
 theme: minima
+markdown: GFM
 
 # social links
 github_username:  mauricelam
