@@ -1,14 +1,11 @@
-theme: minima
-
 title: Maurice's blog
-author: Maurice Lam
-email: me@mauricelam.com
-description: > # this means to ignore newlines
-  This is Maurice's blog
-theme: minima
+author:
+  name: Maurice Lam
+  email: me@mauricelam.com
+description: >
+  I am a software programmer who likes to write Android apps, Python scripts, and Chrome extensions.
 markdown: GFM
 
-# social links
 minima:
   social_links:
     twitter: mymauricelam
@@ -16,5 +13,11 @@ minima:
     stackoverflow: "2921519"
     linkedin: maurice-lam
 
+theme: minima
+
 google_analytics: UA-181508309-3
 show_excerpts: true # set to false to remove excerpts on the homepage
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
