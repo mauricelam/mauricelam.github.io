@@ -4,5 +4,5 @@ I will be writing blog posts about various programming-related topics in this bl
 
 You can see a list of my published projects at: [https://github.com/mauricelam](https://github.com/mauricelam)
 
-Stackoverflow: https://stackoverflow.com/users/2921519/maurice-lam
-LinkedIn: https://www.linkedin.com/in/maurice-lam/
+* Stackoverflow: https://stackoverflow.com/users/2921519/maurice-lam
+* LinkedIn: https://www.linkedin.com/in/maurice-lam/
