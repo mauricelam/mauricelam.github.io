@@ -16,7 +16,7 @@ At the time, I was also reading Walter Isaacson's biography on Steve Jobs, and t
 
 > "When you're a carpenter making a beautiful chest of drawers, you're not going to use a piece of plywood on the back, even though it faces the wall and nobody will ever see it. You'll know it's there, so you're going to use a beautiful piece of wood on the back. For you to sleep well at night, the aesthetic, the quality, has to be carried all the way through."
 
-So to practice this notion of perfectionism, I spent the next few months perfecting the smallest details of the extension to the extent possible, introducing code and feature that most users would not notice or care about, but that improves the experience silently in the background.
+So to practice this notion of perfectionism, I spent the next few months perfecting the smallest details of the extension to the extent possible, introducing code and feature that most users would not notice or care about, but that improves the experience silently in the background. ScrollMaps has a number of these features, probably the most amongst all my projects, and here are a few examples:
 
 #### Scrollability detection
 
