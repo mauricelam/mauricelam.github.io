@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: minima
 
 title: Maurice's blog
 author: Maurice Lam
@@ -9,7 +9,12 @@ theme: minima
 markdown: GFM
 
 # social links
-github_username:  mauricelam
-google_analytics: UA-181508309-3
+minima:
+  social_links:
+    twitter: mymauricelam
+    github:  mauricelam
+    stackoverflow: "2921519"
+    linkedin: maurice-lam
 
+google_analytics: UA-181508309-3
 show_excerpts: true # set to false to remove excerpts on the homepage
