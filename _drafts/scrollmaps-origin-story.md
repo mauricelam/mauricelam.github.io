@@ -1,4 +1,4 @@
-ScrollMaps (TODO: add link) is a simple browser extension for Chrome and Firefox that allows users to pan the map using the two-finger-scrolling gesture.
+[ScrollMaps](https://github.com/mauricelam/ScrollMaps) is a simple browser extension for Chrome and Firefox that allows users to pan the map using the two-finger-scrolling gesture.
 
 It started out back in 2012, and at the time the dominant form of mouse wheels were those clicky, one-dimensional mouse wheel that have distinct clicks. But at the same time, a new form of scrolling is starting to emerge, which is the two-finger-scrolling gesture, with smooth and inertial scrolling. The introduction of two-finger-scrolling was made possible by the multi-touch technology pioneered by the iPhone and transplanted onto laptops in the form of a multi-touch trackpad. Similarly, smooth and inertial scrolling was popularized by the iPhone's fling and scroll interactions.
 
@@ -22,4 +22,14 @@ So to practice this notion of perfectionism, I spent the next few months perfect
 
 Scrollability is one of those features that was added for perfection. ScrollMaps was built with this functionality where you can request for scrolling to be disabled until you click on the maps portion, which avoids the problem where you are scrolling down the page, and halfway down there is an embedded Google Maps, and it suddenly starts zooming / panning instead of letting you scroll further down the page. This in itself was a nice feature (which years later Google solved by adding a [developer flag](https://developers.google.com/maps/documentation/javascript/interaction) and let the developer choose the desired behavior), but to perfect the last bit, I decided to implement "scrollability detection", which is a feature that will detect whether the current page where the Google Map is shown on is scrollable or not. If the page itself is not scrollable, we can always allow the map to capture the `wheel` event and use that for panning.
 
-## API injection
+That detection may sound like a simple piece of code, but when you take into account edge cases like `iframes` and different scrollbar settings, there is actually a surprising amount of subtlety involved (which I definitely didn't expect going into it). This detection in itself can be the topic of another post of its own.
+
+#### API injection
+
+
+## Links
+
+* GitHub repository: https://github.com/mauricelam/ScrollMaps
+* Chrome webstore: https://chrome.google.com/webstore/detail/scrollmaps/jifommjndpnefcfplgnbhabocomgdjjg
+* Firefox addon: https://addons.mozilla.org/en-US/firefox/addon/scrollmaps/
+* Blog post back in 2014 describing the problem: https://www.popularmechanics.com/technology/apps/reviews/a10753/scrollmaps-is-the-google-maps-fix-you-need-16931788/
