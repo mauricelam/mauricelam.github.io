@@ -1,17 +1,14 @@
 title: Maurice's blog
-author:
-  name: Maurice Lam
-  email: me@mauricelam.com
+author: Maurice Lam
+email: me@mauricelam.com
 description: >
   I am a software programmer who likes to write Android apps, Python scripts, and Chrome extensions.
 markdown: GFM
 
-minima:
-  social_links:
-    twitter: mymauricelam
-    github:  mauricelam
-    stackoverflow: "2921519"
-    linkedin: maurice-lam
+twitter_username: mymauricelam
+github_username:  mauricelam
+stackoverflow_username: "2921519"
+linkedin_username: maurice-lam
 
 theme: minima
 
