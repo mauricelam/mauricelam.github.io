@@ -27,6 +27,10 @@ That detection may sound like a simple piece of code, but when you take into acc
 #### API injection
 
 
+## Conclusion
+
+If there is a moral for the story of ScrollMaps, it is to start pursuing your ideas right away, and relentlessly pursue perfection. ScrollMaps wasn't the grandest idea, nor was it a technical marvel, but how it solves a real problem that users have, combined with the polish to deliver that extra step to help the users combined to make it what it is today.
+
 ## Links
 
 * GitHub repository: https://github.com/mauricelam/ScrollMaps
