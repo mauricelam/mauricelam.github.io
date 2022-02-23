@@ -10,6 +10,10 @@ This is when I got frustrated with the interaction – I was impressed with the 
 
 ## Wheel event capturing and simulation
 
+At its core, the idea of ScrollMaps is very simple. It captures the javascript [`wheel`](https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event) events, and [dispatches](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events) a "drag" event in response. Those of you who are familiar with Javascript may know that ordinary "drag" within the webpage is not one standardized event, but is instead [`mousedown`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event), [`mousemove`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event), and [`mouseup`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event) events chained together. (Side note: There is a [`drag`](https://developer.mozilla.org/en-US/docs/Web/API/Document/drag_event) event in Javascript, but that's for dragging and dropping files between the the web content and the native OS outside of the browser).
+
+Because the drag detection is done through detection of this chain of events, it means that each web app will have a slightly different detection logic. For example, some apps may decide to only look at the `movementX` and `movementY` attributes to determine how much the drag is, while others may compare that value to the `mousedown` event to calculate how much it has moved in total. In fact, this is one of the things that broke when a [new redesign of Google Maps](https://www.theverge.com/2013/5/15/4333374/google-maps-redesign-2013-io-event) was launched in 2013. This means ScrollMaps is essentially reverse engineering Google Maps' drag detection mechanism in order to dispatch the required events.
+
 ## "The back of the drawer"
 
 At the time, I was also reading Walter Isaacson's biography on Steve Jobs, and the idea of focus and perfectionism had an effect on me.
@@ -25,6 +29,10 @@ Scrollability is one of those features that was added for perfection. ScrollMaps
 That detection may sound like a simple piece of code, but when you take into account edge cases like `iframes` and different scrollbar settings, there is actually a surprising amount of subtlety involved (which I definitely didn't expect going into it). This detection in itself can be the topic of another post of its own.
 
 #### API injection
+
+While the implementation described above works well on Google.com/maps, and iframe-embedded Google Maps, those are only one portion of Google Maps usages on the web. Another, arguably more important usage is through the Google Maps APIs. Because Google Maps APIs run by loading the javascript and rendering the content directly in the hosting app's domain, ScrollMaps' content scripts won't be able to reach it by default. For example, on Yelp pages where there is a Google Map embedded, those are done using the Google Maps API, and the resulting content is rendered directly under the yelp.com domain. This means any URL-based targeting or content scripts won't be able to reach those Google Maps. Instead, we needed to inject javascript into every page to trigger our wheel event capturing code.
+
+There are a lot more interesting details to share, such as how to detect usages of the Google Maps API, and making it work on sites that load the Google Maps javascript at different points in time, that I think it will be worth its own post to share all the technical details.
 
 
 ## Conclusion
