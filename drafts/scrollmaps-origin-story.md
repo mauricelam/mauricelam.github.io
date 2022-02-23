@@ -44,4 +44,5 @@ If there is a moral for the story of ScrollMaps, it is to start pursuing your id
 * GitHub repository: https://github.com/mauricelam/ScrollMaps
 * Chrome webstore: https://chrome.google.com/webstore/detail/scrollmaps/jifommjndpnefcfplgnbhabocomgdjjg
 * Firefox addon: https://addons.mozilla.org/en-US/firefox/addon/scrollmaps/
+* Edge addon: https://microsoftedge.microsoft.com/addons/detail/scrollmaps/mdhhlgkmnlaiofbbemcmigjleiiefmga
 * Blog post back in 2014 describing the problem: https://www.popularmechanics.com/technology/apps/reviews/a10753/scrollmaps-is-the-google-maps-fix-you-need-16931788/
