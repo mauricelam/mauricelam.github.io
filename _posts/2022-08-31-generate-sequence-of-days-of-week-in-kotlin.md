@@ -1,5 +1,3 @@
-# Generating a sequence of days of week in Kotlin
-
 Just a random code snippet today: Generating a sequence of days of week (e.g. `["Sunday", "Monday", ..., "Saturday"]`) according to locale.
 
 ```
