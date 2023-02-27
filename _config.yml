@@ -11,7 +11,7 @@ stackoverflow_username: maurice-lam
 linkedin_username: maurice-lam
 rss: RSS
 
-remote_theme: jekyll/minima
+theme: minima
 
 minima:
   skin: dark
