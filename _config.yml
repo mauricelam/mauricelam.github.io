@@ -11,11 +11,12 @@ stackoverflow_username: maurice-lam
 linkedin_username: maurice-lam
 rss: RSS
 
-theme: minima
+remote_theme: jekyll/minima
 
 google_analytics: UA-181508309-3
 show_excerpts: true # set to false to remove excerpts on the homepage
 
 plugins:
+ - jekyll-remote-theme
  - jekyll-feed
  - jekyll-seo-tag
