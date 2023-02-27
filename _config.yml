@@ -13,6 +13,9 @@ rss: RSS
 
 remote_theme: jekyll/minima
 
+minima:
+  skin: dark
+
 google_analytics: UA-181508309-3
 show_excerpts: true # set to false to remove excerpts on the homepage
 
