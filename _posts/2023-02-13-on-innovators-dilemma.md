@@ -1,5 +1,3 @@
-# On the Innovator's Dilemma
-
 The Innovator's Dilemma is a classic book that describes how dominant players in particular industries fail and lose their positions to innovating startups despite having orders of magnitude more resources and a much better market position to compete.
 
 While the general reaction seems to be view those fallen dominant players as lacking vision or having bad management, my reaction and perspective from reading the book is quite different. In the book, the author laid out a case for big companies to fail even assuming competent management and perfectly rational decision making. This is the part that I found the most interesting – I certainly wouldn't hope for a company to be run irrationally in the name of some vision (that would be more like a cult), so while there is an urge to conclude that there must be something wrong with the management's perspective that brought about the companies' demise, there is a bigger sense I felt that the Innovator's Dilemma is unavoidable.
