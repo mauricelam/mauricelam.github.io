@@ -19,7 +19,7 @@ Extcap takes the pipe model one step further, and introduce additional steps to 
 
 # How to write extcap in Rust?
 
-I ended up creating the [`r-extcap`](https://docs.rs/r-extcap/latest/r_extcap/) crate for this purpose. Getting started on this is simple, you simply create a `clap` dervied struct, and put `ExtcapArgs` as one of its field with the `#[command(flatten)]` attribute. Then in the `main` function, call `let my_args = MyArgs::parse()`, and then call `my_args.extcap.run()`. The return value of `run()` will be one of the 4 steps described above (actually 5, with "Reload config") being an optional 3.5th step.
+I ended up creating the [`r-extcap`](https://docs.rs/r-extcap/latest/r_extcap/) crate for this purpose. Getting started on this is simple, you simply create a `clap` derived struct, and put `ExtcapArgs` as one of its field with the `#[command(flatten)]` attribute. Then in the `main` function, call `let my_args = MyArgs::parse()`, and then call `my_args.extcap.run()`. The return value of `run()` will be one of the 4 steps described above (actually 5, with "Reload config") being an optional 3.5th step.
 
 Here's a complete example:
 
