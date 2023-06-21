@@ -16,7 +16,7 @@ theme: minima
 minima:
   skin: dark
 
-google_analytics: UA-181508309-3
+google_analytics_4: G-ZKYWJB0CPB
 show_excerpts: true # set to false to remove excerpts on the homepage
 
 plugins:
