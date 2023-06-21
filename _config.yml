@@ -4,17 +4,16 @@ description: >
   I am a software programmer who likes to write Android apps, Python scripts, and Chrome extensions.
 markdown: GFM
 
-social_links:
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+  social_links:
   - { platform: github,         user_url: "https://github.com/mauricelam" }
   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/maurice-lam" }
   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/2921519/maurice-lam" }
   - { platform: twitter,        user_url: "https://twitter.com/mymauricelam" }
   - { platform: rss,            user_url: "https://mauricelam.github.io/feed.xml" }
-
-remote_theme: jekyll/minima
-
-minima:
-  skin: dark
 
 google_analytics: G-ZKYWJB0CPB
 show_excerpts: true # set to false to remove excerpts on the homepage
