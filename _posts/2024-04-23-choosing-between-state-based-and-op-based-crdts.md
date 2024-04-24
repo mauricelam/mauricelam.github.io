@@ -1,4 +1,5 @@
-In literature, there are two main types of CRDTs commonly described — state-based and op-based. However, there isn't a lot of resources for how to choose between the two. I have collected and digested the relevant resources, and here is my summary:
+In literature, there are two main types of CRDTs commonly described — state-based and op-based. However, there isn't a lot of resources for how to choose between the two. I have collected and digested the relevant resources, and here is my summary.
+
 ### Bandwidth requirements
 It used to be that state-based CRDTs are considered less practical because of the need to synchronize the full state across the network every time. But with [Delta State Replicated Data Types](https://arxiv.org/pdf/1603.01529.pdf), a large part of the bandwidth and storage requirements can be optimized away, especially if you only need eventual consistency and not causal consistency. [Some studies](https://arxiv.org/pdf/1803.02750.pdf) have even shown that delta-CRDTs can outperform op-based CRDTs in terms of metadata size.
 ### Message delivery requirements
