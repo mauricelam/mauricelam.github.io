@@ -1,3 +1,4 @@
 Here is my blog about various programming-related topics in this blog, mostly focusing on the technical aspects. In my day job, I work on Android applications and AOSP. Off work, I work on various Python scripts, Android apps, Chrome extensions, and command-line utilities.
 
-> _Take your time in planning, but when you have made your decision be fast in putting it into action._ – Strategikon
+> _工欲善其事 必先利其器_ – 論語
+> _To do a good job, an artisan needs to sharpen his tools_ — Confucius
